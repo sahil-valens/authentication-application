@@ -1,0 +1,103 @@
+/* Container Styling */
+.login-form {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #f8f9fa;  /* Lighter background */
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;  /* Adding border for cleaner edges */
+}
+
+/* Title Styling */
+.login-title {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input Field Container Styling */
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;  /* Add space between fields */
+}
+
+/* Label Styling */
+.input-label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;  /* Space between label and input */
+}
+
+/* Input Field Styling */
+.input-fields input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;  /* Prevents padding from increasing width */
+  transition: all 0.3s ease;  /* Smooth transition for all states */
+}
+
+/* Input Field Hover Effect */
+.input-fields input:hover {
+  border-color: #007bff;  /* Blue border on hover */
+  background-color: #f1faff;  /* Light background on hover */
+  outline: none;  /* Remove default outline */
+}
+
+/* Footer Styling */
+footer {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  padding: 25px;
+  background-color: #f8f9fa; /* Slightly lighter background */
+  border-top: 1px solid #ddd; /* Subtle border at the top */
+  border-radius: 12px 12px 0 0; /* Rounded top corners for consistency */
+}
+
+/* Button Styling */
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 28px; /* Larger padding for better proportions */
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px; /* Matching rounded corners */
+  color: white;
+  font-size: 18px; /* Slightly larger font size for consistency */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  font-weight: 600; /* Bold text for readability */
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.custom-button:active {
+  transform: scale(1); /* Return to normal size when clicked */
+}
+
+.custom-button .logo {
+  width: 22px; /* Increased logo size for visibility */
+  height: 22px;
+  object-fit: contain;
+}
+
+.custom-button .button-text {
+  font-size: 18px; /* Same as the button font size */
+  font-weight: 600; /* Bold text for better readability */
+  color: white;
+}
