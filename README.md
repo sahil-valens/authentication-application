@@ -1,11 +1,11 @@
 # Getting Started
 
 ```
-git clone <repository-url>
+git clone https://github.com/sahil-valens/authentication-application.git
 ```
 
 ```
-cd sso-auth-app
+cd authentication-application
 ```
 
 ```
